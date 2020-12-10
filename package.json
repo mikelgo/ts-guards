@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "private": false,
   "description": "typescript guards ",
+  "author": "mikelgo",
+  "license": "MIT",
+  "keywords": [
+    "TypeScript",
+    "TS",
+    "Utils",
+    "Utilities",
+    "type-guards",
+    "guards",
+    "type guards"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -14,8 +25,6 @@
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
     "release": "npm publish --access public"
   },
-  "author": "mikelgo",
-  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.18",
     "@typescript-eslint/eslint-plugin": "^4.9.1",
