@@ -1,10 +1,16 @@
 {
-  "name": "ts-guards",
+  "name": "@mikelgo/ts-guards",
   "version": "0.0.0",
+  "private": false,
   "description": "typescript guards ",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "test": "jest --config jestconfig.json",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
   },
   "author": "mikelgo",
