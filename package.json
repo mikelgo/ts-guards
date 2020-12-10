@@ -1,6 +1,6 @@
 {
   "name": "@mikelgo/ts-guards",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
   "description": "typescript guards ",
   "main": "dist/index.js",
