@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": false,
   "description": "typescript guards ",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "lib/**/*"
   ],
