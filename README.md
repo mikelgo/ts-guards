@@ -25,3 +25,10 @@ The utility function `isObject` will *not* return `true` for `null` and `array`'
 The default JavaScript-behavior of treating arrays and also null-values as objects, is in a lot of 
 cases not what you usually want. To prevent this you, usually need additional checks like 
 `if (typeof something === 'object' && !Array.isArray(something))`. This library will already take care of such things.
+
+## Includede utils
+* `isArray`
+* `isObject`
+* `isBoolean`
+* `IsNumber`
+* `IsString`
