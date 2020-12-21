@@ -26,7 +26,7 @@ The default JavaScript-behavior of treating arrays and also null-values as objec
 cases not what you usually want. To prevent this you, usually need additional checks like 
 `if (typeof something === 'object' && !Array.isArray(something))`. This library will already take care of such things.
 
-## Includede utils
+## Included type guards
 * `isArray`
 * `isObject`
 * `isBoolean`
