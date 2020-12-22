@@ -30,5 +30,6 @@ cases not what you usually want. To prevent this you, usually need additional ch
 * `isArray`
 * `isObject`
 * `isBoolean`
-* `IsNumber`
-* `IsString`
+* `isNumber`
+* `isString`
+* `isFile`
