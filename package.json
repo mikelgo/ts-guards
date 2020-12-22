@@ -27,8 +27,7 @@
     "build": "tsc",
     "test": "jest --config jestconfig.json",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
-    "publish": "npm publish --access public",
-    "release": "npm run test && npm run build && npm run release"
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "@types/jest": "^26.0.18",
